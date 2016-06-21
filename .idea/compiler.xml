@@ -22,11 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="zara-spook" />
+        <module name="sclera" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="zara-spook" target="1.5" />
+      <module name="sclera" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

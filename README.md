@@ -1,2 +1,2 @@
-# zara-spook
+# sclera
 Schema visualization for Gaffer
