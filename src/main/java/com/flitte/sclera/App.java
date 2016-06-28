@@ -31,7 +31,7 @@ public class App {
 
         graph.addAttribute("ui.quality");
         graph.addAttribute("ui.antialias");
-        graph.addAttribute("ui.stylesheet", "url('file:///home/tom/projects/flitte/sclera/src/main/resources/gs.css')");
+        graph.addAttribute("ui.stylesheet", "url('file:///~/projects/flitte/sclera/src/main/resources/gs.css')");
 
         schema.getEntities()
               .forEach((k, v) -> {

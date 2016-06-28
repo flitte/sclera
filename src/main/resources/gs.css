@@ -9,7 +9,7 @@ node.vertex {
     stroke-mode: plain;
     padding: 5px, 4px;
     icon-mode: at-left;
-    icon: url('file:///home/tom/projects/flitte/sclera/src/main/resources/dot-circle.png');
+    icon: url('file:///~/projects/flitte/sclera/src/main/resources/dot-circle.png');
 }
 
 node.entity {
@@ -19,7 +19,7 @@ node.entity {
     stroke-mode: plain;
     padding: 5px, 4px;
     icon-mode: at-left;
-    icon: url('file:///home/tom/projects/flitte/sclera/src/main/resources/cubes.png');
+    icon: url('file:///~/projects/flitte/sclera/src/main/resources/cubes.png');
 }
 
 node.properties {
