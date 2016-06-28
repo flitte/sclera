@@ -1,0 +1,56 @@
+graph {
+    padding: 50px;
+}
+
+node.vertex {
+    size-mode: fit;
+    shape: rounded-box;
+    fill-color: white;
+    stroke-mode: plain;
+    padding: 5px, 4px;
+    icon-mode: at-left;
+    icon: url('file:///home/tom/projects/flitte/sclera/src/main/resources/dot-circle.png');
+}
+
+node.entity {
+    size-mode: fit;
+    shape: rounded-box;
+    fill-color: white;
+    stroke-mode: plain;
+    padding: 5px, 4px;
+    icon-mode: at-left;
+    icon: url('file:///home/tom/projects/flitte/sclera/src/main/resources/cubes.png');
+}
+
+node.properties {
+    size-mode: fit;
+    shape: rounded-box;
+    fill-color: white;
+    stroke-mode: plain;
+    padding: 5px, 4px;
+}
+
+edge {
+	shape: line;
+	fill-color: black;
+	arrow-size: 3px, 2px;
+	text-alignment: along;
+	text-background-mode: rounded-box;
+	text-background-color: black;
+	text-padding: 1px;
+	text-offset: 0px, 2px;
+	text-color: white;
+	arrow-size: 10px, 10px;
+}
+
+edge.entitytovertex {
+    text-mode: hidden;
+}
+
+edge.vertextovertex {
+    size: 5;
+}
+
+edge.properties {
+    text-mode: hidden;
+}

@@ -18,6 +18,12 @@
             "class": "gaffer.function.simple.filter.Exists"
           }
         }
+      ], "filterFunctions" : [
+        {
+          "function": {
+            "class" : "..."
+          }
+        }
       ]
     },
     "true": {
